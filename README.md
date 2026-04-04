@@ -33,38 +33,32 @@
 
 ## 🧬 System Architecture · Next-Gen Stack
 
-```mermaid
-graph TD
-    subgraph Edge ["🌐 Global Client Layer"]
-        A[Mobile Apps Flutter] --> C{Anycast CDN Cloudflare}
-        B[Web Apps Next.js] --> C
-    end
-
-    subgraph Core ["⚙️ Core Service Mesh"]
-        C --> D[API Gateway]
-        D --> E[HRIS Logic Engine CodeIgniter + Laravel]
-        D --> F[Fintech Core EWA + Payment Gateway]
-        D --> G[Jobs.id Marketplace Semantic Search]
-    end
-
-    subgraph AI ["🤖 AI Ops Layer"]
-        H[Telemetry Stream] --> I[Self-Healing Agent Claude Code CLI]
-        I -->|Auto-Patch| E
-        I -->|Anomaly Alert| J[Security Hub]
-        I -->|Scale Trigger| K[(Cloud Infra)]
-    end
-
-    subgraph Vault ["🔐 Secure Data Vault"]
-        E --> L[(MySQL + SQL Server Multi-Tenant)]
-        F --> L
-        G --> M[(PostgreSQL Vector Search)]
-        L --- N[HSM Encryption Layer]
-    end
-
-    style AI fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#fff
-    style Vault fill:#1e3a8a,stroke:#60a5fa,stroke-width:2px,color:#fff
-    style Edge fill:#020617,stroke:#94a3b8,stroke-width:1px,color:#fff
-    style Core fill:#0c1628,stroke:#475569,stroke-width:1px,color:#fff
+```
+┌─────────────────────────────────────────────────────────────┐
+│                  🌐 GLOBAL CLIENT LAYER                      │
+│         Flutter Mobile App  ·  Next.js Web App              │
+└──────────────────────┬──────────────────────────────────────┘
+                       │  Anycast CDN · Cloudflare
+                       ▼
+┌─────────────────────────────────────────────────────────────┐
+│                  ⚙️  CORE SERVICE MESH                       │
+│                    [ API Gateway ]                           │
+│   ┌──────────────┬──────────────────┬──────────────────┐    │
+│   │  Byru HRIS   │  Fintech Core    │  Jobs.id Search  │    │
+│   │  CodeIgniter │  EWA + Payment   │  Semantic Layer  │    │
+│   └──────────────┴──────────────────┴──────────────────┘    │
+└────────────┬───────────────────────────────┬────────────────┘
+             │                               │
+             ▼                               ▼
+┌────────────────────────┐   ┌───────────────────────────────┐
+│  🤖 AI OPS LAYER       │   │  🔐 SECURE DATA VAULT         │
+│  Telemetry Stream      │   │  MySQL · SQL Server (MT)      │
+│  Self-Healing Agent    │   │  PostgreSQL · Vector DB       │
+│  Claude Code CLI       │   │  HSM Encryption Layer         │
+│  ↳ Auto-Patch          │   │  Redis Cache                  │
+│  ↳ Anomaly Alert       │   └───────────────────────────────┘
+│  ↳ Scale Trigger       │
+└────────────────────────┘
 ```
 
 -----

@@ -35,14 +35,14 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                  🌐 GLOBAL CLIENT LAYER                      │
+│                  🌐 GLOBAL CLIENT LAYER                     │
 │         Flutter Mobile App  ·  Next.js Web App              │
 └──────────────────────┬──────────────────────────────────────┘
                        │  Anycast CDN · Cloudflare
                        ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                  ⚙️  CORE SERVICE MESH                       │
-│                    [ API Gateway ]                           │
+│                  ⚙️  CORE SERVICE MESH                      │
+│                    [ API Gateway ]                          │
 │   ┌──────────────┬──────────────────┬──────────────────┐    │
 │   │  Byru HRIS   │  Fintech Core    │  Jobs.id Search  │    │
 │   │  CodeIgniter │  EWA + Payment   │  Semantic Layer  │    │
@@ -70,9 +70,9 @@
 |Platform                 |My Role          |Strategic Value            |2026 Tech Milestone              |
 |:-----------------------:|:---------------:|:-------------------------:|:-------------------------------:|
 |🟦 **Byru HRIS** · byru.id|Architect & Owner|Workforce Intelligence SaaS|Multi-region High Availability   |
-|💳 **Finfleet Teknologi** |Fintech Lead     |EWA & Salary Disbursement  |Bank Partnership + ISO 20022     |
+|💳 **Finfleet Teknologi Indonesia** |Tech Lead     |PG Salary Disbursement  |Bank Partnership + ISO 20022     |
 |🔒 **Byru Security**      |Security Director|Audit & Hardening          |AI Vulnerability Scanner         |
-|💼 **Jobs.id**            |Product Overseer |Talent Marketplace         |Semantic Job Matching (Vector DB)|
+|💼 **Jobs.id**            |Product Overseer |Supporing All Ecosystem        |Group Holding from VC|
 |📱 **e-mobi.id**          |Mobile Strategist|Mobile Ecosystem           |Flutter Cross-Platform Expansion |
 
 </div>

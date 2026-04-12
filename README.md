@@ -127,10 +127,8 @@
 ## 📊 Engineering Velocity & Metrics
 
 <div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=mnf94&show_icons=true&theme=transparent&hide_border=true&title_color=60A5FA&text_color=94A3B8&icon_color=38BDF8&count_private=true&include_all_commits=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnf94&layout=compact&theme=transparent&hide_border=true&title_color=60A5FA&text_color=94A3B8&langs_count=8"/>
-
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mnf94&theme=tokyonight" />
+  <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mnf94&theme=tokyonight" />
 </div>
 
 <div align="center">

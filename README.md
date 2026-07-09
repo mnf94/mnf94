@@ -1,42 +1,62 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0F172A,100:1E3A8A&height=280&section=header&text=Muhammad%20Nur%20Faqi&fontSize=52&fontColor=38BDF8&fontAlignY=35&desc=%E2%9C%A8%20Visionary%20IT%20Executive%20%7C%20Architecting%20Autonomic%20Systems%20%7C%20Fintech%20Disruptor&descAlignY=57&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:0F172A,100:1E3A8A&height=260&section=header&text=Muhammad%20Nur%20Faqi&fontSize=48&fontColor=38BDF8&fontAlignY=35&desc=VP%20%26%20Director%20of%20IT%20%E2%80%94%20Building%20Resilient%20Systems%20for%20Fintech%20%26%20HR%20Tech&descAlignY=55&descSize=16&animation=fadeIn" width="100%"/>
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=3000&pause=1000&color=F8FAFC&center=true&vCenter=true&width=800&lines=%3E_VP+%26+Director+of+IT+%40+PT+Solusi+Kerah+Byru;%3E_Scaling+Multi-Tenant+SaaS+Architecture;%3E_Zero-Trust+Security+%7C+LLM-Driven+DevOps;%3E_Building+Systems+That+Scale+Beyond+The+Sprint+%F0%9F%9A%80" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&duration=3000&pause=1200&color=CBD5E1&center=true&vCenter=true&width=800&lines=Leading+Engineering+%26+Security+across+5+product+lines;Scaling+multi-tenant+SaaS+to+99.99%25+availability;Zero-Trust+Architecture+%7C+AI-Augmented+Operations" />
 </a>
 
 <br/><br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square\&logo=linkedin\&logoColor=white)](https://linkedin.com/in/mnurfaqi)
-[![Email](https://img.shields.io/badge/m.nurfaqi%40byru.id-1E3A8A?style=flat-square\&logo=gmail\&logoColor=white)](mailto:m.nurfaqi@byru.id)
-[![Company](https://img.shields.io/badge/Byru_HRIS-byru.id-38BDF8?style=flat-square\&logo=google-cloud\&logoColor=white)](https://byru.id)
-[![Profile Views](https://komarev.com/ghpvc/?username=mnf94\&color=38BDF8\&style=flat-square\&label=System+Pings)](https://github.com/mnf94)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mnurfaqi)
+[![Email](https://img.shields.io/badge/Email-1E3A8A?style=for-the-badge&logo=gmail&logoColor=white)](mailto:m.nurfaqi@byru.id)
+[![Website](https://img.shields.io/badge/byru.id-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://byru.id)
+[![Profile Views](https://komarev.com/ghpvc/?username=mnf94&color=38BDF8&style=for-the-badge&label=Views)](https://github.com/mnf94)
 
 </div>
 
 ---
 
-## 🛰️ Command Center: 2026 Telemetry
+## About Me
 
-> **Mission Objective:** Orchestrating 5 high-availability product entities under a unified, AI-augmented infrastructure with a zero-trust security posture.
+I'm **VP & Director of IT at PT Solusi Kerah Byru**, where I own the technology strategy and execution behind a portfolio of interconnected products spanning **HR tech, fintech, and workforce infrastructure**. My mandate covers architecture, security, and platform reliability across every product line — translating business objectives into systems that scale without slowing the organization down.
+
+I lead with a builder's mindset: hands-on in architecture reviews and incident response, not just steering from a distance. My focus areas:
+
+- **Platform architecture** — multi-tenant SaaS serving multiple business units on a shared, hardened core
+- **Security posture** — zero-trust design, OWASP-aligned practices, and encryption at rest/in transit across all services
+- **AI-augmented operations** — applying LLM-driven tooling to accelerate engineering velocity and reduce operational toil
+- **Technical leadership** — building and mentoring engineering teams that own outcomes, not just tickets
+
+---
+
+## Leadership Impact
 
 <div align="center">
 
-| 🏗️ Architecture   | 🛡️ Security     | 🧠 AI Ops          |
-| :----------------- | :--------------- | :----------------- |
-| 5 Entities, 1 Core | Zero-Trust Model | LLM Pipelines      |
-| 99.99% SLA Target  | OWASP Alignment  | +40% Velocity      |
-| Hybrid Data Vault  | HSM Encryption   | Predictive Scaling |
+| Domain | Highlight |
+| :--- | :--- |
+| 🏗️ **Architecture** | 5 product entities unified under one core platform, 99.99% SLA target |
+| 🛡️ **Security** | Zero-trust rollout across all services, OWASP-aligned hardening |
+| 🧠 **AI Operations** | LLM-driven pipelines contributing to a measurable increase in delivery velocity |
+| 📈 **Scale** | Hybrid data architecture supporting multi-tenant growth without re-platforming |
 
 </div>
 
 ---
 
-## 🧬 System Topology
+## Product Portfolio
+
+| Product | My Role | Focus |
+| :--- | :--- | :--- |
+| **Byru HRIS** | Architect | Workforce management SaaS |
+| **Finfleet** | Tech Lead | Payment & fintech infrastructure |
+| **Byru Security** | Security Owner | Platform hardening & compliance |
+| **Jobs.id** | Product Oversight | Talent & job marketplace integration |
+| **e-mobi.id** | Mobile Oversight | Access & mobility layer |
 
 <details>
-<summary><b>Expand Diagram</b></summary>
+<summary><b>System topology (click to expand)</b></summary>
 
 ```mermaid
 graph TD;
@@ -47,70 +67,50 @@ C --> D[HRIS];
 C --> E[Fintech];
 C --> F[Jobs.id];
 
-D --> G[(DB)];
+D --> G[(Database)];
 E --> H[(Cache)];
 F --> H;
 
-J[AI Ops] --> C;
+I[AI Ops] --> C;
 ```
 
 </details>
 
 ---
 
-## 🚀 Product Ecosystem
+## Tech I Work With
 
-| Product       | Role      | Focus          |
-| :------------ | :-------- | :------------- |
-| Byru HRIS     | Architect | Workforce SaaS |
-| Finfleet      | Tech Lead | Payment Infra  |
-| Byru Security | Security  | Hardening      |
-| Jobs.id       | Product   | Integration    |
-| e-mobi.id     | Mobile    | Access Layer   |
+<div align="center">
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+*(swap these for the stack you actually run day-to-day)*
+
+</div>
 
 ---
 
-## 📊 Global Metrics
+## GitHub Activity
 
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=mnf94&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" width="49%" />
-
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mnf94&layout=compact&theme=tokyonight&hide_border=true" width="49%" />
 
-</div>
+<br/><br/>
 
-<br>
+<img src="https://streak-stats.demolab.com?user=mnf94&theme=tokyonight&hide_border=true" width="100%" />
 
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mnf94&theme=tokyonight" width="49%" />
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mnf94&theme=tokyonight" width="49%" />
-
-</div>
-
----
-
-## 📈 Activity
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=mnf94&theme=tokyonight&hide_border=true" />
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=mnf94&theme=tokyonight&no-frame=true&row=1&column=7" />
-
-</div>
-
-<br>
-
-<div align="center">
+<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=mnf94&bg_color=1a1b27&color=60A5FA&line=38BDF8&point=F8FAFC&area=true&hide_border=true" width="100%" />
 
@@ -118,7 +118,7 @@ J[AI Ops] --> C;
 
 ---
 
-## 🧪 R&D Pipeline
+## Currently Exploring
 
 ```yaml
 AI:
@@ -126,36 +126,30 @@ AI:
   - self-healing systems
 
 Security:
-  - SQLi remediation
-  - zero-trust rollout
+  - continuous vulnerability remediation
+  - zero-trust rollout across remaining services
 
 Fintech:
-  - EWA pipeline
-  - banking integration
+  - earned wage access (EWA) pipeline
+  - banking integrations
 
-Scaling:
-  - multi-tenant optimization
-  - cross-product funnel
+Platform:
+  - multi-tenant cost & performance optimization
+  - cross-product data funnel
 ```
 
 ---
 
-## ⚖️ Philosophy
+## Philosophy
 
-> Systems must scale, self-heal, and never block innovation.
+> Systems must scale, self-heal, and never block innovation. Good architecture is invisible when it works — and the team's job is to make sure it always does.
 
 ---
 
-## 🤝 Contact
-
 <div align="center">
 
-[LinkedIn](https://linkedin.com/in/mnurfaqi) •
-[Email](mailto:m.nurfaqi@byru.id) •
-[Website](https://byru.id)
+**Let's connect** — [LinkedIn](https://linkedin.com/in/mnurfaqi) • [Email](mailto:m.nurfaqi@byru.id) • [byru.id](https://byru.id)
 
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,50:0F172A,100:020617&height=100&section=footer"/>
 
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,50:0F172A,100:020617&height=120&section=footer"/>
 </div>
